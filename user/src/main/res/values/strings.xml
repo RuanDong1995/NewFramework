@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">user</string>
+    <string name="user_already_send_captcha">短信验证码已发送</string>
+    <string name="user_input_phone_hint">请输入手机号</string>
+    <string name="user_input_password_hint">请输入密码</string>
+    <string name="user_password_digits">1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="user_password_length_error">密码不小于6位</string>
+    <string name="user_input_captcha_hint">请输入验证码</string>
+    <string name="user_select_head">选择头像</string>
+    <string name="user_select_image_error">选择图片时遇到问题</string>
+    <string name="user_select_image_permission">需要权限选择相册照片或拍照</string>
+    <string name="user_setting_nick">设置昵称</string>
+    <string name="user_please_input_nick">请输入昵称</string>
+    <string name="user_save_success">保存成功</string>
+</resources>

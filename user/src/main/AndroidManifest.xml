@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beecampus.user">
+
+    <application>
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".resetPassword.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.LoginWithMsgActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".editInfo.EditInfoActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+</manifest>

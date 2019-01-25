@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">model</string>
+    <string name="model_network_error">网络开小差了</string>
+</resources>

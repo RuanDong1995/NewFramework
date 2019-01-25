@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beecampus.common">
+
+    <!-- 网络连接 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 相册读取 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+
+        <!-- 相册选择界面 -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImageCropTheme" />
+
+        <activity
+            android:name=".inputValue.InputValueActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".selectSchool.SelectSchoolActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity
+            android:name=".searchSchool.SearchSchoolActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".event.NetworkStatusEvent"/>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="common_input_default_title">编辑</string>
+    <string name="common_please_input">请输入</string>
+    <string name="common_input_min_length_format">至少输入%1$d个字符</string>
+    <string name="common_get_image_error">获取图片时出现问题</string>
+    <string name="search_school_hint">校园名/拼音</string>
+    <string name="cancel">取消</string>
+    <string name="search">搜索</string>
+    <string name="more">更多</string>
+    <string name="common_network_error">网络开小差了</string>
+    <string name="common_search_school_empty">暂未找到相关校园</string>
+    <string name="common_search_school_hint">校园名/拼音</string>
+    <string name="common_unselect_school">当前：未选择</string>
+    <string name="common_select_school_format">当前：%1$s %2$s</string>
+</resources>

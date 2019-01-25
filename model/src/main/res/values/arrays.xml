@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="GenderSpinner">
+        <item>全部</item>
+        <item>男女不限</item>
+        <item>限男生</item>
+        <item>限女生</item>
+    </string-array>
+
+    <string-array name="RunnerSortSpinner">
+        <item>综合排序</item>
+        <item>赏金最高</item>
+        <item>最新</item>
+        <item>热门</item>
+    </string-array>
+
+    <string-array name="RunnerTypeSpinner">
+        <item>全部</item>
+        <item>取餐</item>
+        <item>取快递</item>
+        <item>办事</item>
+        <item>配送</item>
+        <item>其它</item>
+    </string-array>
+</resources>

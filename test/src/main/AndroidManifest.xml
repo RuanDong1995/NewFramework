@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mvvm.com.test">
+
+    <application>
+        <activity android:name=".story.StoryActivity" />
+        <activity android:name=".storyDetail.StoryDetailActivity"></activity>
+    </application>
+
+</manifest>

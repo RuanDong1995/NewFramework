@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtn_back"
+            style="@style/ImageButton"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            style="@style/ClearEditText"
+            android:layout_marginRight="@dimen/content_padding"
+            android:background="@drawable/bg_search_edittext"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="5dp"
+            android:hint="@string/common_search_school_hint"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_current_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="@dimen/content_padding"
+        android:gravity="center_vertical"
+        android:minHeight="44dp"
+        android:paddingLeft="@dimen/content_padding"
+        android:paddingRight="@dimen/content_padding"
+        android:textColor="@color/textColorBlack"
+        android:textSize="14sp" />
+
+    <View style="@style/Shadow" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_school_campus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.beecampus.common.widget.FastScrollBar
+            android:id="@+id/fast_scroll_bar"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:hiddenOffset="1"
+            app:textColor="@color/textColorGray" />
+    </FrameLayout>
+</LinearLayout>
